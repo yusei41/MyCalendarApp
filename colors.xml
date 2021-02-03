@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!-- 先月・翌月　のボタンの色 -->
+    <color name="colorAccent">#7E1C54BD</color>
+    <!-- 当月以外の日付の色 -->
+    <color name="grayColor">#777</color>
+    <color name="blueColor">#00F</color>
+    <color name="redColor">#F00</color>
+    <color name="whiteColor">#FFF</color>
+    <color name="blackColor">#000</color>
+</resources>
