@@ -12,4 +12,11 @@
 
     <!--ここに拡張可能-->
 
+    <!-- カレンダー上にメモを表示するTextView（予定等） -->
+    <TextView
+        android:id="@+id/memoText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"/>
+
 </RelativeLayout>

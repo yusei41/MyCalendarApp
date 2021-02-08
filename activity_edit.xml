@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF2F2"
+    android:orientation="vertical"
+    tools:context="com.example.yuseitoriya.mycalendarapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/memoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/whiteColor"
+        android:gravity="center"
+        android:text="メモ"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editMemoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:hint="件名"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editMemoTime"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:hint="時間"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editMemoDetail"
+        android:layout_width="427dp"
+        android:layout_height="85dp"
+        android:hint="備考"
+        android:inputType="textMultiLine|text" />
+
+    <Button
+        android:id="@+id/memoRegistButton"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="#E6BCB9"
+        android:text="予定を登録"
+        android:textSize="24sp" />
+
+</LinearLayout>
